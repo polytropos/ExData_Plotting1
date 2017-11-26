@@ -49,7 +49,8 @@ legend(
   "topright",
   legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
   lty=c(1, 1, 1),
-  col=c("black","blue","red"))
+  col=c("black","blue","red"),
+  bty = "n")
 
 with(power_data_clean, plot(
   date_time, 
